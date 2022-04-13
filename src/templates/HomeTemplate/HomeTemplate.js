@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import {Route} from 'react-router-dom';
-import Header from '../Layouts/Header';
-import Footer from '../Layouts/Footer';
+import Header from './Layouts/Header';
+import Footer from './Layouts/Footer';
 
 export const HomeTemplate = (props) => {
     const {Component, ...restProps} = props;
