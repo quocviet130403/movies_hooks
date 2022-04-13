@@ -8,7 +8,7 @@ export const HomeTemplate = (props) => {
 
     return <Route {...restProps} render={(propsRoute) => {
         return <Fragment>
-            <Header />
+            <Header {...propsRoute}/>
 
             <Component {...propsRoute}/>
 
